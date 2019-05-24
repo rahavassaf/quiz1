@@ -1,0 +1,17 @@
+<div class = "main">
+	<h1>Total hits <%= @visitors.length %> </h1>
+
+	
+	<div class="fake-header left">IP</div>
+	<div class="fake-header right">Time</div>
+
+	<% count = 0 %>
+	<% @visitors.each do |v| %>
+		<% color= count % 2 == 0 ? '#aaa' : '#888' %>
+		<% count += 1 %>
+
+		<div class="ip left" style="background-color: <%= color %> ;"><%= v.ip %></div>
+		<div class="time right" style="background-color: <%= color %> ;"><%= v.created_on %></div>
+	<% end %>
+	
+</div>
