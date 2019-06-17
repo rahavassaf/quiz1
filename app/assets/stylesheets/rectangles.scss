@@ -1,0 +1,29 @@
+// Place all the styles related to the rectangles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.rectangle {
+	margin: 20px;
+	color: #fff;
+	text-shadow: 4px 4px 10px #000;
+	border: 2px solid #fff;
+	padding: 0px;
+	box-shadow: 4px 4px 15px #000;
+	text-align: center;
+}
+
+.plus-button {
+	width: 75px;
+	height: 75px;
+	border-radius: 50%;
+	background-color: #bbb;
+	color: #fff;
+	border: 2px solid #fff;
+	position: absolute;
+	bottom: 50px;
+	right: 50px;
+	font-size: 65px;
+	text-align: center;
+	vertical-align: middle;
+	box-shadow: 4px 4px 15px #000;
+}

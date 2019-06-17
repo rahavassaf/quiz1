@@ -10,6 +10,18 @@
   </head>
 
   <body>
+    <div style="display: inline-block;">
+      <%= link_to root_path do %>
+        <div class="link">Quiz1</div>
+      <% end %>
+
+      <%= link_to rectangles_path do %>
+        <div class="link">Quiz2</div>
+      <% end %>
+    </div>
+
+    <hr>
+    
     <%= yield %>
   </body>
 </html>

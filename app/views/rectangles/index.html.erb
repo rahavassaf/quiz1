@@ -1,0 +1,15 @@
+<% @rectangles.each do |r| %>
+
+	<div class="rectangle" style="height: <%= r.height %>px; width: <%= r.width %>px; background-color: <%= r.color %>">
+		<%= r.width %>w<br>
+		<%= r.height %>h<br>
+		<%= r.color %>
+	</div>
+
+<% end %>
+
+<%= link_to new_rectangle_path do %>
+	<div class="plus-button">
+		+
+	</div>
+<% end %>
