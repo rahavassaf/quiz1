@@ -5,10 +5,13 @@
 .rectangle {
 	margin: 20px;
 	color: #fff;
-	text-shadow: 4px 4px 10px #000;
+	text-shadow: 4px 0px 10px #000,
+		-4px 0px 10px #000,
+		0px 4px 10px #000,
+		0px -4px 10px #000;
 	border: 2px solid #fff;
 	padding: 0px;
-	box-shadow: 4px 4px 15px #000;
+	box-shadow: 4px 0px 15px #000;
 	text-align: center;
 }
 
