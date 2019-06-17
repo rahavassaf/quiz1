@@ -1,10 +1,11 @@
-<%= simple_form_for @rectangle do |f| %>
-	<%= f.input :width, label: "Width in pixels", placeholder: "100" %>
-	<br>
-	<%= f.input :height, label: "Height in pixels", placeholder: "100" %>
-	<br>
-	<%= f.input :color, label: "Color HEX code", placeholder: "#001122" %>
-	<br>
-	<%= f.submit 'Create' %>
-	</div>
-<% end %>
+<div class="form">
+	<%= simple_form_for @rectangle do |f| %>
+		<%= f.input :width, label: "Width in pixels", placeholder: "100" %>
+		<br>
+		<%= f.input :height, label: "Height in pixels", placeholder: "100" %>
+		<br>
+		<%= f.input :color, label: "Color HEX code", placeholder: "#001122" %>
+		<br>
+		<%= f.submit 'Create' %>
+	<% end %>
+</div>
